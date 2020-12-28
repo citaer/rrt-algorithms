@@ -55,3 +55,10 @@ Visualization examples can be found for rrt and rrt* in both 2 and 3 dimensions.
 ## License
 
 [MIT License](https://github.com/motion-planning/rrt-algorithms/blob/master/LICENSE)
+
+when using example's programs, please 
+1.create __init__.py(optional) and 
+2.create a file in the source named output/visualizations/[program_name].html
+3.import the path as follows:
+import os, sys
+sys.path.append("../../")
